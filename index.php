@@ -1,3 +1,26 @@
+<?php 
+
+    //data of the database
+
+    //table
+
+    //inserting data to database
+
+    //connection to database
+
+    //verify the form
+    if($_POST['submit']){
+
+        //get the text
+
+        //insert into database
+
+        //redirect
+        header("Location: index.php");
+    }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +33,9 @@
 <body>
     
     <form action="#" method="post">
-    
-        <textarea name="teste" id="teste" cols="30" rows="10" placeholder="écrivez ici"></textarea>
+        <input type="text" name="title" placeholder="Title">
+        <textarea name="teste" id="teste" cols="30" rows="10" placeholder="Your comment"></textarea>
+        <button type="submit">Send your comment</button>
     </form>
 
     <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
